@@ -1,4 +1,4 @@
-# Proyecto HTML - Página Web de Ejemplo
+# Proyecto HTML - Primera Página Web
 
 ## Descripción
 Este proyecto es una página web que presenta información sobre el primer trabajo practico de la materia Desarrollo De Software. Se ha desarrollado utilizando HTML.
