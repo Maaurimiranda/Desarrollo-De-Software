@@ -13,3 +13,7 @@ Este proyecto es una página web que presenta información sobre el primer traba
 1. Clonar el repositorio:
    ```bash
    git clone https://github.com/Maaurimiranda/Desarrollo-De-Software.git
+
+## Autor
+Miranda Mauricio Alen 
+Legajo: 50101
