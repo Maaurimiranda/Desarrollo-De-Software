@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primer HTML</title>
+
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 5px;
+            text-align: center;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: rgb(209, 209, 209);
+            text-align: center;
+        }
+        main {
+            padding: 10px;
+        }
+        section{
+            padding: 8;
+            margin-bottom: 1px solid grey;
+            border: 1px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <header>
+        <h1> GUIA BASE DE HTML</h1>
+    </header>
+
+    <!-- Encabezado Principal -->
+    <section>
+        <h1 id="section1"><b>1. Estructura Básica del Documento HTML</b></h1>
+        <p>Este documento HTML tiene una estructura básica que incluye la declaración de DOCTYPE, etiquetadas de metadatos y un título.</p>
+    </section>
+
+
+    <!-- Sección de Encabezados y Propiedades del Texto -->
+    <section>
+        <h2>2. Encabezados y Propiedades del Texto</h2>
+        <h3><b>Este es un texto en negrita</b></h3>
+        <h4 style="font-style: italic;">Este es un texto en cursiva</h4>
+        <h5 style="text-decoration: underline;">Este es un texto subrayado</h5>
+        <h6 style="color: red;">Este es un texto en color rojo</h6>
+        <h6 style="font-family: 'Courier New', Courier, monospace;">Este es un texto en fuente monoespaciada</h6>
+    </section>
+
+    <!-- Sección de Divisiones y Agrupación de Contenidos -->
+    <section>
+        <h2>3. Divisiones y Agrupación de Contenidos</h2>
+        <article> 
+            <h3>Sección 1</h3>
+            <p>Contenido de la primera sección agrupada de un artículo.</p>
+        </article>
+        <article> 
+            <h3>Sección 2</h3>
+            <p>Contenido de la segunda sección agrupada en un artículo.</p>
+        </article>
+    </section>
+
+    <!-- Sección de Enlaces y Listas -->
+    <section>
+        <h2>4. Enlaces y Listas</h2>
+        <nav>
+            <p>Visita nuestro <a href="https://campus.frm.utn.edu.ar/?" target="_blank">sitio web</a> para más información.</p>
+            <p>Enlaces internos:</p>
+            <ul>
+                <li><a href="#section1">Ir a Estructura</a></li>
+                <li><a href="#section2">Ir a Multimedia</a></li>
+                <li><a href="#section3">Ir a Formulario</a></li>
+            </ul>
+        </nav>
+
+        <article>
+            <p>Lista desordenada:</p>
+            <ul>
+                <li>Primer ítem de una lista desordenada</li>
+                <li>Segundo ítem de una lista desordenada</li>
+            </ul>
+            <p>Lista ordenada:</p>
+            <ol>
+                <li>Primer ítem de una lista ordenada</li>
+                <li>Segundo ítem de una lista ordenada</li>
+            </ol>
+        </article>
+    </section>
+
+    <!-- Sección de Elementos Multimedia -->
+    <section id="section2">
+        <h2>5. Elementos Multimedia</h2>
+        <img src="https://nerdpai.com/wp-content/uploads/2018/11/Curiosidade_Mickey_90_ANOS-5.jpg" alt="Pagina Mickey Mouse" width="200px" height="200px" />
+        <video src="https://video-previews.elements.envatousercontent.com/5b3b6876-9689-4cfe-9692-1cf061a156f6/watermarked_preview/watermarked_preview.mp4" controls width="300px" height="200px"></video>
+        <audio src="https://download.blender.org/peach/trailer/trailer_1080p.ogg" controls></audio>
+    </section>
+
+     <!-- Sección de Tablas -->
+     <section>
+        <h2>6. Tablas</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Columna 1</th>
+                    <th>Columna 2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Dato 1</td>
+                    <td>Dato 2</td>
+                </tr>
+                <tr>
+                    <td>Dato 3</td>
+                    <td>Dato 4</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Sección de Formularios -->
+    <section id="section3">
+        <h2>7. Formularios</h2>
+        <form>
+            <label>Nombre:</label>
+            <input type="text" />
+            
+            <label>Email:</label>
+            <input type="email" />
+
+            <label>Mensaje:</label>
+            <textarea></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Sección Final de Semántica -->
+    <aside>
+        <h2>8. Semántica</h2>
+    </aside>
+
+    <!-- Pie de página -->
+    <footer> 
+        <p>Pie de página</p>
+    </footer>
+
+</body>
+
+</html>
